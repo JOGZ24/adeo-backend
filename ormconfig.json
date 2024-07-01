@@ -1,12 +1,10 @@
 {
     "type": "postgres",
     "host": "localhost",
-    "port": 5432,
-    "username": "citizix_user",
-    "password": "S3cret",
-    "database": "citizix_db",
-    "entities": [
-        "dist/**/*.entity{.ts,.js}"
-    ],
+    "port": 5001,
+    "username": "postgres",
+    "password": "postgres",
+    "database": "prisma",
+    "autoLoadEntities": true,
     "synchronize": true
 }
